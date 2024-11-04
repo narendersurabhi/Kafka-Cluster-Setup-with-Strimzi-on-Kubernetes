@@ -74,3 +74,15 @@ Access the Kafka brokers using the external listener:
 ```sh
 kubectl port-forward -n kafka svc/my-cluster 9092:9092
 ```
+
+
+## To delete the setup
+Delete topic
+```sh
+kubectl delete -f kafka-topic.yaml
+```
+
+To delete cluster
+```sh
+kubectl delete -f kafka-cluster.yaml
+```
