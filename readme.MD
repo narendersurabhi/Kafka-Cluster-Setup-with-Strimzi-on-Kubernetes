@@ -86,3 +86,8 @@ To delete cluster
 ```sh
 kubectl delete -f kafka-cluster.yaml
 ```
+
+To delete the service
+```sh
+kubectl delete -f kafka-external-service.yaml
+```
